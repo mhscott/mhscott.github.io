@@ -53,7 +53,7 @@ will store different numbers of non-zeros.
 
 Now suppose we want to use 5% damping ($$\zeta$$=0.05) in the first 
 mode. Based on the mass and stiffness, the first mode frequency is 
-$$\omega_1$$=9.4715$ rad/sec and the corresponding eigenvector and 
+$$\omega_1$$=9.4715 rad/sec and the corresponding eigenvector and 
 the resulting modal damping matrix are
 
 
