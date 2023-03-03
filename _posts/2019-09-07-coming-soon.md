@@ -2,6 +2,7 @@
 layout: post
 title: Coming Soon
 author: Michael H. Scott
+categories: Community
 ---
 
 Welcome to my blog! I will post on OpenSees and writing. I'm not an 
