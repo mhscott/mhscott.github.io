@@ -1,7 +1,6 @@
 ---
 layout: post
 title: How to Cite OpenSees
-author: Michael H. Scott
 category: Writing
 ---
 
