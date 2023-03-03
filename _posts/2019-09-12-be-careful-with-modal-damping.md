@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Be Careful with Modal Damping
-author: Michael H. Scott
 category: Structural Dynamics
 ---
 
