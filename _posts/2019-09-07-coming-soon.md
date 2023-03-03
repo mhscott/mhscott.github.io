@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Coming Soon
-author: Michael H. Scott
 category: Random Bits
 ---
 
