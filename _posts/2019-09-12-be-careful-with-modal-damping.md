@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Be Careful with Modal Damping
+author: Michael H. Scott
 ---
 
 Modal damping is kind of the it-spell in the dark art that is modeling 
