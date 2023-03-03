@@ -2,7 +2,7 @@
 layout: post
 title: Coming Soon
 author: Michael H. Scott
-categories: Random Bits
+category: Random Bits
 ---
 
 Welcome to my blog! I will post on OpenSees and writing. I'm not an 
