@@ -21,13 +21,13 @@ Before OpenSees, there was G3. And before G3, there was Frank McKenna's Ph.D. di
 
 ---
 
-### McKenna, F., Fenves, G. L, and Scott, M. H. (2000) _Open System for Earthquake Engineering Simulation._ University of California, Berkeley, (https://opensees.berkeley.edu).
+### McKenna, F., Fenves, G. L, and Scott, M. H. (2000) _Open System for Earthquake Engineering Simulation._ University of California, Berkeley, [https://opensees.berkeley.edu](https://opensees.berkeley.edu).
 
 After a brief stint as G3, OpenSees was coined in 2000 and the (opensees.berkeley.edu) domain was created. Citing a website was not too common in the early 2000s, but it caught on. Researchers cite the website when they use OpenSees for analyses but don’t go in to too much detail, e.g., "... nonlinear response history analyses in OpenSees (McKenna et al 2000)."
 
 ---
 
-### Mazzoni, S., McKenna, F., Scott, M. H., and Fenves, G. L. (2006) _OpenSees Command Language Manual._ University of California, Berkeley, (https://opensees.berkeley.edu/manuals/usermanual).
+### Mazzoni, S., McKenna, F., Scott, M. H., and Fenves, G. L. (2006) _OpenSees Command Language Manual._ University of California, Berkeley, [https://opensees.berkeley.edu/manuals/usermanual](https://opensees.berkeley.edu/manuals/usermanual).
 
 Researchers cite the command language manual when they call out specific element or constitutive models, e.g., "... fiber section response from _Steel04_ and _Concrete23_ (Mazzoni et al 2006)." Even though many element and constitutive models have been added to the framework since 2006, the command language manual remains a popular way to cite OpenSees.
 
