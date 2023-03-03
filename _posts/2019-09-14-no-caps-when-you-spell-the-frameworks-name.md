@@ -11,7 +11,7 @@ category: Community
 >
 > MF DOOM, 2004
 
-The preferred capitalization of OpenSees is not so clear. I often see OpenSEES, which is understandable because it stands for the <ins>Open</ins> <ins>S</ins>ystem for <ins>E</ins>arthquake <ins>Engineering</ins> <ins>S</ins>imulation. Less frequently, I see the all caps OPENSEES, the single capital Opensees, the txtese opensees, the hyphenated Open-Sees, and on rare occasions the possessive OpenSee's.
+The preferred capitalization of OpenSees is not so clear. I often see OpenSEES, which is understandable because it stands for the <ins>Open</ins> <ins>S</ins>ystem for <ins>E</ins>arthquake <ins>E</ins>ngineering <ins>S</ins>imulation. Less frequently, I see the all caps OPENSEES, the single capital Opensees, the txtese opensees, the hyphenated Open-Sees, and on rare occasions the possessive OpenSee's.
 
 Folks often ask me which capitalization is correct.
 
