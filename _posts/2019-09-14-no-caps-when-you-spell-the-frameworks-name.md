@@ -1,7 +1,6 @@
 ---
 layout: post
 title: No CAPS When You Spell the Framework's Name
-author: Michael H. Scott
 category: Community
 ---
 
