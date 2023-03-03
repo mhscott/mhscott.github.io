@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Is Plastic Hinge Integration a Fruit or a Vegetable?
-author: Michael H. Scott
 category: Element Formulations
 ---
 
