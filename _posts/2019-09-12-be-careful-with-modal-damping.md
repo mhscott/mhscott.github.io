@@ -2,7 +2,7 @@
 layout: post
 title: Be Careful with Modal Damping
 author: Michael H. Scott
-categories: Structural Dynamics
+categories: ["Structural Dynamics"]
 ---
 
 Modal damping is kind of the it-spell in the dark art that is modeling 
