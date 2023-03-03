@@ -23,3 +23,5 @@ The correct capitalization is OpenSees, with no repeated capital letters or hyph
 I'll leave this here for you to enjoy while you do some case sensitive searching and replacing.
 
 [![MF DOOM](http://img.youtube.com/vi/gSJeHDlhYls/0.jpg)](http://www.youtube.com/watch?v=gSJeHDlhYls "MF DOOM")
+
+Post updated February 13, 2021 with the [HD edition](https://www.stonesthrow.com/news/madvillain-all-caps-video/) of the video. See the [original standard definition version](https://www.youtube.com//watch?v=ewc1hixzYPY).
