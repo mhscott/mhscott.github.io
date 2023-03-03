@@ -7,13 +7,11 @@ category: Community
 
 [MF DOOM](https://en.wikipedia.org/wiki/MF_Doom) is one of the greatest lyricists--of any genre--that you've probably never heard of. In his 2004 track "All Caps" with [Madlib](https://en.wikipedia.org/wiki/Madlib), DOOM explains how his stage name should be written.
 
-```
-All CAPS when you spell the man's name.
+> _All CAPS when you spell the man's name._
+>
+> MF DOOM, 2004
 
--- MF DOOM, 2004
-```
-
-The preferred capitalization of OpenSees is not so clear. I often see OpenSEES, which is understandable because it stands for the Open System for Earthquake Engineering Simulation. Less frequently, I see the all caps OPENSEES, the single capital Opensees, the txtese opensees, the hyphenated Open-Sees, and on rare occasions the possessive OpenSee's.
+The preferred capitalization of OpenSees is not so clear. I often see OpenSEES, which is understandable because it stands for the <ins>Open</ins> <ins>S</ins>ystem for <ins>E</ins>arthquake <ins>Engineering</ins> <ins>S</ins>imulation. Less frequently, I see the all caps OPENSEES, the single capital Opensees, the txtese opensees, the hyphenated Open-Sees, and on rare occasions the possessive OpenSee's.
 
 Folks often ask me which capitalization is correct.
 
