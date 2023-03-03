@@ -10,7 +10,7 @@ viscous damping in structures. Although modal damping is pretty
 straightforward, you should be aware of an important aspect of its 
 implementation in OpenSees.
 
-The issue, which is described in section 9 of this paper, is that 
+The issue, which is described in section 9 of [this paper](https://doi.org/10.1002/eqe.2622), is that 
 OpenSees assembles the dynamic tangent into the matrix storage scheme 
 you choose via the `system` command. This is a problem for modal damping 
 because the damping matrix is full even when the matrix storage, based 
@@ -99,11 +99,25 @@ Consider the banded matrix solver `BandSPD` in a free vibration analysis of the 
 
 ![Modal damping example with BandSPD solver](/assets/images/BandSPD.png)
 
+Although not shown here, the analysis will take three or four iterations per time step if you switch the solver to `ProfileSPD` or `UmfPack`, or any solver that does not store the full matrix.
+
+Because it stores the entire matrix, you can use the `FullGeneral` solver to get the convergence in one iteration that you expect for a linear problem.
+
+![Modal damping example with FullGeneral solver](/assets/images/FullGeneral.png)
+
+Don't worry though, the analyses will converge to the same solution regardless of which solver you use. However, without getting into spectral radii, it's possible that the analysis will not converge at all due to inconsistent zeros in the dynamic tangent. But this is unlikely for realistic values of mass, stiffness, and damping.
+
+For large models, using a solver with full matrix storage will be dreadfully slow. You'll be better off taking the extra iterations with a fast sparse solver like `UmfPack` than using the `FullGeneral` solver to converge in one iteration. When using a fast sparse solver, don't use the `NewtonRaphson` algorithm--you don't want to factorize the same inconsistent tangent over and over. Consider `KrylovNewton` or `BFGS` instead. And don't use the `Linear` algorithm because it won't iterate to equilibrium.
+
+Recognizing that one size does not fit all, OpenSees was designed to give you total control over the analysis. Therefore, it's important you are aware of issues like this one with modal damping so that you can choose analysis options wisely.
+
+---
+
+Here is an OpenSees Tcl script of the foregoing analysis.
+
 ```tcl
-#
 # Free vibration analysis of shear frame with modal damping
 # Using zero length elements for the model
-#
 
 wipe
 model basic -ndm 1 -ndf 1
