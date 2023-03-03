@@ -10,7 +10,7 @@ viscous damping in structures. Although modal damping is pretty
 straightforward, you should be aware of an important aspect of its 
 implementation in OpenSees.
 
-The issue, which is described in section 9 of [this paper](https://doi.org/10.1002/eqe.2622), is that 
+The issue, which is described in section 9 of [Chopra and McKenna (2015)](https://doi.org/10.1002/eqe.2622), is that 
 OpenSees assembles the dynamic tangent into the matrix storage scheme 
 you choose via the `system` command. This is a problem for modal damping 
 because the damping matrix is full even when the matrix storage, based 
