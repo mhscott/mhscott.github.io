@@ -22,7 +22,7 @@ inconsistent with the residual.
 
 Let's describe this issue with a canonical shear frame model.
 
-IMAGE
+![Four story shear frame model](/assets/images/ShearFrame.png)
 
 Using floor mass *m*=1.0352 and story stiffness *k*=610, the 
 model has the following mass and stiffness matrices
@@ -139,9 +139,9 @@ mass 4 [expr 0.5*$m]
 uniaxialMaterial Elastic 1 $k
 
 element zeroLength 1 0 1 -mat 1 -dir 1
-element zeroLength 2 1 2 -mat 1 -dir 1
-element zeroLength 3 2 3 -mat 1 -dir 1
-element zeroLength 4 3 4 -mat 1 -dir 1
+element zeroLength 2 1 3 -mat 1 -dir 1
+element zeroLength 3 3 2 -mat 1 -dir 1
+element zeroLength 4 2 4 -mat 1 -dir 1
 
 # Impose displacement at roof
 timeSeries Constant 1
@@ -151,6 +151,7 @@ pattern Plain 1 1 {
 
 # Do a static analysis for initial condition
 integrator LoadControl 0.0
+numberer Plain
 constraints Transformation
 analysis Static
 
@@ -161,10 +162,10 @@ wipeAnalysis
 # Remove displacement so it doesn't affect eigen calculations
 remove loadPattern 1
 
-set N 2 ;# Number of modes for modal damping
+set N 1 ;# Number of modes for modal damping
 eigen $N
 
-modalDamping 0.05 0.02 ;# 5% in mode 1, 2% in mode 2
+modalDamping 0.05 ;# 5% in mode 1
 
 # Switch to dynamic analysis
 analysis Transient
