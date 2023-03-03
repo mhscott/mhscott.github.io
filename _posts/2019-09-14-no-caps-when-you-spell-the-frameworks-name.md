@@ -2,7 +2,7 @@
 layout: post
 title: No CAPS When You Spell the Framework's Name
 author: Michael H. Scott
-categories: Community
+category: Community
 ---
 
 [MF DOOM](https://en.wikipedia.org/wiki/MF_Doom) is one of the greatest lyricists--of any genre--that you've probably never heard of. In his 2004 track "All Caps" with [Madlib](https://en.wikipedia.org/wiki/Madlib), DOOM explains how his stage name should be written.
