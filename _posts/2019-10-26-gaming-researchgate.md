@@ -31,6 +31,7 @@ To be clear, this post is not a criticism of ResearchGate or its users, but rath
 ---
 
 Update: October 28, 2019
+
 This achievement arrived in my ResearchGate notifications this morning.
 
 ![ResearchGate achievement](/assets/images/ResearchGate2.png)
