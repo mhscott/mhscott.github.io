@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Be Careful with Modal Damping
 category: Structural Dynamics
 ---
