@@ -1,5 +1,4 @@
 ---
-layout: post
 title: No CAPS When You Spell the Framework's Name
 category: Community
 ---
