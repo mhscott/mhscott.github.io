@@ -15,7 +15,7 @@ So, what does an MWE look like for OpenSees? Here's a non-exhaustive list of Ope
 + One ground motion file (if required)
 + As few analysis steps as possible
 
-Like OpenSees itself, the simpler the better for an MWE.
+Like OpenSees itself, [the simpler the better]({% post_url 2021-04-14-opensees-is-simple %}) for an MWE.
 
 Going through the process of creating an MWE is sometimes enough to resolve the issue. Often, a "bug" is actually a scripting or input error. 
 I would like to believe that's why I don't always receive an MWE when I ask for one.
