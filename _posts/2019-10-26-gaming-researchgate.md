@@ -41,7 +41,8 @@ I am outperforming all of Eastchester!
 
 Running Log of RG Score
 
-+ March 31, 2023: ResearchGate shuts down all Projects
++ March 31, 2023: ResearchGate [retires Projects](https://www.researchgate.net/researchgate-updates/retiring-projects)
++ March 29, 2022: ResearchGate [removes RG Scores](https://www.researchgate.net/researchgate-updates/removing-the-rg-score)
 + March 10, 2022: 29.02
 + January 1, 2022: 28.97
 + March 1, 2021: 28.57 (stopped posting blog updates to RG)
