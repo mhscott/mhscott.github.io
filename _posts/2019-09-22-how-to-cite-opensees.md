@@ -1,5 +1,4 @@
 ---
-layout: post
 title: How to Cite OpenSees
 category: Writing
 ---
