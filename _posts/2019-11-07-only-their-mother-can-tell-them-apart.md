@@ -48,7 +48,7 @@ to share examples or contribute new functionality.
 
 ---
 <br>
-The title of this post is taken from the tagline of Twins. Here is the scene where
+The title of this post is taken from the tagline of _Twins_. Here is the scene where
 the twins see each other for the first time since birth
 
 [![Twins](http://img.youtube.com/vi/Mw1Z2Jlp9Qw/0.jpg)](http://www.youtube.com/watch?v=Mw1Z2Jlp9Qw "Twins")
