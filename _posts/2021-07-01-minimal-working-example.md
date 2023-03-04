@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Minimal Working Example
 category: Community
 ---
