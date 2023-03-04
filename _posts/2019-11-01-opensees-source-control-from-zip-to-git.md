@@ -7,7 +7,7 @@ Back in the G3 days, when there were essentially two developers, Frank kept the 
 cargo pocket of his pants each afternoon. Frank instructed me to retrieve the disk if he was ever hit by a bus. As long as the buses and I 
 stayed in our lanes, there were no conflicts.
 
-IMAGE
+![100 MB ZipDisk](/assets/images/ZipDisk.png)
 
 Frank and the Zip disk survived. In 2000, G3 changed to OpenSees and the source code was put on a server running Concurrent Versions System, 
 or [CVS](https://en.wikipedia.org/wiki/Concurrent_Versions_System), a centralized version control system. This made it easy to bring additional 
