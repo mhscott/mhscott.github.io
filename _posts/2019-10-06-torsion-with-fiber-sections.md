@@ -31,15 +31,15 @@ section Fiber 1 -GJ $GJ {
 
 Most people use Method 2 for which this pull request will not break backward compatibility. If you use Method 1, read on.
 
-Years ago when I implemented Method 2, I put a bogus $$GJ$$ value in to the _FiberSection3d_ class to accommodate folks who might 
+Years ago when I implemented Method 2, I put a bogus _GJ_ value in to the _FiberSection3d_ class to accommodate folks who might 
 forget to use either Method 1 or Method 2. The force-based element would always have a full rank flexibility matrix to invert 
 and the displacement-based element would have something to interpolate. No harm, no foul, right?
 
 Wrong! This messed up folks who used Method 1, which apparently was a small group because it took years for anyone to notice this 
 issue. It's likely they struggled in silence with OpenSees convergence problems just like everyone else.
 
-The issue with Method 1 is that the _FiberSection3d_ object is created with an artificially high $$GJ$$ value, giving a section stiffness 
-matrix, $${\bf k}_s$$, with the following topology:
+The issue with Method 1 is that the _FiberSection3d_ object is created with an artificially high _GJ_ value, giving a section stiffness 
+matrix with the following topology:
 
 $${\bf k}_s = \left[
 \begin{array}{cccc} 
@@ -70,7 +70,7 @@ The frame elements in OpenSees are able to handle two torsional modes in the sec
 conditioning of the element stiffness matrix and/or stability of the element state determination could be poor due to the extremely 
 stiff torsional response, leading to global convergence issues. What was I thinking?
 
-This pull request fixes the issue by forcing the user to specify either a $$GJ$$ value or a _UniaxialMaterial_ for torsion when defining 
+This pull request fixes the issue by forcing the user to specify either a _GJ_ value or a _UniaxialMaterial_ for torsion when defining 
 the fiber section.
 
 ```tcl
