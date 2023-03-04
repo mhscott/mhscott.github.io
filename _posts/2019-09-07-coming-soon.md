@@ -1,5 +1,4 @@
 ---
-layout: post
 title: Coming Soon
 category: Random Bits
 ---
