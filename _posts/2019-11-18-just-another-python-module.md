@@ -29,7 +29,7 @@ make words, it's not so good for mathematical operations. Tcl requires
 In addition, there are very few packages available for scientific computing
 and post-processing with Tcl. I've felt the pain of plotting OpenSees results
 on a Tk canvas using emu_graph, which is now defunct. I've also used the
-[math::linearalgebra](http://tmml.sourceforge.net/doc/tcllib/linalg.html)
+[`math::linearalgebra`](http://tmml.sourceforge.net/doc/tcllib/linalg.html)
 package, which makes its way through numerical linear
 algebra using Tcl lists in surprisingly fine fashion.
 
