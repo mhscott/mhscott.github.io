@@ -31,6 +31,7 @@ copyright: >- # Ignore new lines
   2019-2023. Michael H. Scott, Portwood Digital, LLC. All rights reserved. 
   This site is not affiliated with Oregon State University, University of California, PEER, or any other institution.
 permalink: /:year/:month/:day/:title:output_ext
+permalink: /:year/:month/:day/:title/
 
 # Build settings
 theme: minima
