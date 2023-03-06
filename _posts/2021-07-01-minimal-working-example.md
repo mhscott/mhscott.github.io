@@ -5,7 +5,7 @@ category: Community
 
 When people post online or e-mail me about what could be a bug in OpenSees, I'll ask for a 
 [minimal working example](https://en.wikipedia.org/wiki/Minimal_working_example) (MWE), 
-i.e., a simple script the demonstrates the problem. I don't want to deal with elaborate scripts--yours or mine.
+i.e., a simple script that demonstrates the problem. I don't want to deal with elaborate scripts--yours or mine.
 
 So, what does an MWE look like for OpenSees? Here's a non-exhaustive list of OpenSees MWE characteristics:
 
