@@ -9,7 +9,7 @@ i.e., a simple script that reproduces the problem. I don't want to deal with ela
 
 So, what does an MWE look like for OpenSees? Here's a non-exhaustive list of OpenSees MWE characteristics:
 
-+ One script file, either `.tcl` or `.py`, containing the entire model and analysis
++ One file, either `.tcl` or `.py`, containing the entire model and analysis
 + As few Tcl or Python constructs as possible
 + One element, two at most
 + One ground motion file (if required)
