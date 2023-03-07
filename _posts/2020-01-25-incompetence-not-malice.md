@@ -67,3 +67,8 @@ This was not an intentional act of sabotage like when [Raymond’s mother taught
 Although C++ is more difficult to read than MATLAB, the _KrylovNewton_ code had been in the OpenSees repository
 for some time before the article was published and the code continues to be there for anyone to see and reproduce. 
 I simply left out a line of code when making a figure for an article. Incompetence, not malice.
+
+---
+<br>
+
+[Formal erratum](https://doi.org/10.1061/(ASCE)ST.1943-541X.0002748) published in August 2020
