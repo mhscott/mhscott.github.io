@@ -10,9 +10,9 @@ of important details in published work as intentional acts to prevent reproducti
 In some cases, this is true, while in most, plain 'ol incompetence is to blame. I will share a personal 
 example of non-malicious incompetence.
 
-[Scott and Fenves (2010)](https://doi.org/10.1061/(ASCE)ST.1943-541X.0000143)
-described the formulation and implementation of the _KrylovNewton_ algorithm
-in OpenSees. The article describes an accelerated Newton technique that can overcome some of the issues 
+The formulation and OpenSees implementation of the _KrylovNewton_ algorithm, an accelerated Newton
+technique, is described in [Scott and Fenves (2010)](https://doi.org/10.1061/(ASCE)ST.1943-541X.0000143). 
+The algorithm can overcome some of the issues 
 with Newton-Raphson and Modified Newton. Figure 2 of the article shows MATLAB code for the algorithm implementation.
 
 In the years since the article was published, I never paid much attention to the code shown in Figure 2. 
