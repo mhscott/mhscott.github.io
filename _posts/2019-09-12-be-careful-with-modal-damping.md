@@ -110,7 +110,7 @@ For large models, using a solver with full matrix storage will be dreadfully slo
 Recognizing that one size does not fit all, OpenSees was designed to give you total control over the analysis. Therefore, it's important you are aware of issues like this one with modal damping so that you can choose analysis options wisely.
 
 ---
-
+<br>
 Here is an OpenSees Tcl script of the foregoing analysis.
 
 ```tcl
