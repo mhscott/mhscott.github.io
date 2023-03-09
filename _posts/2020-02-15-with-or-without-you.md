@@ -31,5 +31,5 @@ So, is ~4000 citations and 8 h-index points all OpenSees is worth? Probably
 not, but it's entertaining to examine. Just don't use this information to make
 any investment decisions.
 
-If you would like to scrape Google Scholar data as well, check out
+If you too would like to scrape Google Scholar data, check out
 [this R package](https://github.com/jkeirstead/scholar).
