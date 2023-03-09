@@ -11,7 +11,7 @@ decisions.
 To aid in evaluation, citation-based metrics are readily available online,
 ranging from Web of Science, which indexes only archival publications, to
 Google Scholar, which indexes pretty much anything posted on the internet. I
-prefer Google Scholar because it counts the numerous citations that are not to
+prefer Google Scholar because it counts the numerous citations that are _not_ to
 the [OpenSees marker paper]({% post_url 2019-09-22-how-to-cite-opensees %}).
 We prefer and advocate for what makes us look good, right?
 
