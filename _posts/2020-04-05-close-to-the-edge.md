@@ -9,7 +9,7 @@ A [colleague](https://www.ericafischer.org/) in Eastchester
 but a little abstract compared to other, more concrete, guidelines going around. For example, in Florida, the rule of thumb
 is to maintain a distance equal to an adult alligator length. You can visualize an alligator, but you can't see a normal stress.
 
-IMAGE
+![Social distancing](/assets/images/SocialDistancing.png)
 
 Naturally, I thought it would be a good example to use in class. Before doing so, I verified the normal stress calculation, 
 $$\sigma$$=_M/S_. From the 15th edition AISC Steel Manual, the section modulus for a W12x14 is _S_=14.9 in<sup>3</sup>. 
@@ -27,14 +27,14 @@ web thickness (0.200 inch), flange width (3.97 inch), and flange thickness (0.22
 With midpoint integration of fiber stresses, the section will never sample stress-strain response at the outer faces of the flanges. 
 The sampling will always be half a fiber thickness away.
 
-IMAGE
+![Fiber discretization of wide-flange section](/assets/images/WFSection.png)
 
 As the number of fibers increases, the estimate of _S_ improves and the centroid of the extreme fiber moves closer to the edge. 
 The maximum normal stress computed via the fiber section converges; however, it converges to 7.48 ksi instead of the expected 
 7.25 ksi. This discrepancy arises because the section modulus, _S_, tabulated in the Steel Manual accounts for fillet rounds between 
 the web and flanges--there's more steel area and thus lower bending stress than the fiber section.
 
-IMAGE
+![Maximum normal stress computed with increasing number of fibers](/assets/images/FiberW12x14.png)
 
 I suppose I could code up Gauss-Lobatto integration through the depth of fiber patches in order to sample stress-strain response
 at the edges. I could also code up Delaunay Triangulation for the fiber section discretization in order to account for fillet rounds. 
