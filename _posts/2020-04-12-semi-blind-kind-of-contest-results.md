@@ -4,7 +4,7 @@ category: Community
 ---
 
 I proposed a simplified model of a strongback frame system as a 
-[modeling challenge]({% 2020-03-01-a-semi-blind-kind-of-contest %}) and five people took the bait. 
+[modeling challenge]({% post_url 2020-03-01-a-semi-blind-kind-of-contest %}) and five people took the bait. 
 I am happy to report that all five computed the expected roof displacement of 0.0128 mm, give or take 0.0001 mm. 
 Good job, everyone!
 
