@@ -15,15 +15,15 @@ you can find more information on the formulations in
 
 The model is of a W14x90 steel member that supports a constant axial load,
 _N_, and an increasing moment, _M_, applied about the member strong axis.
-The axial load is $$N=0.2F_yA$$ and the applied moment increases from zero to
-$$2M_y$$, where $$M_y=F_yS$$. The section area, _A_, and section modulus,
+The axial load is _N=0.2F<sub>y</sub>A_ and the applied moment increases from zero to
+_2M<sub>y</sub>_, where _M<sub>y</sub>=F<sub>y</sub>S_. The section area, _A_, and section modulus,
 _S_, for a W14x90 are found in the Steel Manual.
 
 ![Mesh of displacement-based frame elements](/assets/images/mrdbProppedCantilever.png)
 
 A fiber discretization of the member cross-section captures axial-moment
 interaction. The stress-strain response of each fiber is bilinear with
-$$F_y$$=50 ksi, $$E$$=29,000 ksi, and $$\alpha$$=0.005. We are loading this
+_F<sub>y</sub>_=50 ksi, _E_=29,000 ksi, and $$\alpha$$=0.005. We are loading this
 thing into ridiculousness, allowing indefinite strain-hardening and ignoring
 geometric nonlinearity.
 
@@ -38,7 +38,7 @@ weak equilibrium with the element end forces.
 Consistent with finite element theory, we improve the computed solution by
 increasing the number of elements along the member length (h-refinement). We
 will look at the global and local response of the W14x90 using
-$$N_{ele}$$ = 1, 4, and 8 elements. Each element has two Gauss integration
+_N<sub>ele</sub>_=1, 4, and 8 elements. Each element has two Gauss integration
 points.
 
 The moment-rotation and moment-axial displacement response of the beam are
@@ -67,7 +67,7 @@ If we used a higher order axial displacement function with an internal node (p-r
 
 The force-based formulation (`forceBeamColumn` in OpenSees) uses the known equilibrium solution for a beam--the one you learned in statics--to interpolate constant axial force and linear bending moment along the element length. Compatibility between section deformations and element deformations is satisfied in an average sense.
 
-To improve the computed solution with force-based elements, we increase the number of integration points in an element. For the W14x90, we will use one element with $$N_p$$ = 3, 4, and 5 integration points. The integration is Gauss-Lobatto, which places an integration point at the element ends to capture the extreme flexural response.
+To improve the computed solution with force-based elements, we increase the number of integration points in an element. For the W14x90, we will use one element with _N<sub>p</sub>_=3, 4, and 5 integration points. The integration is Gauss-Lobatto, which places an integration point at the element ends to capture the extreme flexural response.
 
 ![Force-based frame element with Gauss-Lobatto integration](/assets/images/fbbcProppedCantilever.png)
 
