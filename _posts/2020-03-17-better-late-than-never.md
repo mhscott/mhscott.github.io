@@ -21,3 +21,7 @@ The releases will also work with uniform distributed loads and point loads as me
 
 Check the moment releases out, give them a try. They may even come in handy for this 
 [frame analysis challenge]({% post_url 2020-03-01-a-semi-blind-kind-of-contest %}).
+
+---
+<br>
+Moment releases for 3D `elasticBeamColumn` elements were added in [PR #436](https://github.com/OpenSees/OpenSees/pull/436).
