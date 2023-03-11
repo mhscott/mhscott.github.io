@@ -4,11 +4,11 @@ category: Element Formulations
 ---
 
 I sometimes run across simulations where frame member response is computed using displacement-based beam-column elements with 
-more than two Gauss points per element. These elements require at least two Gauss points to ensure a complete solution and to 
+more than two Gauss points per element. Displacement-based frame elements require at least two Gauss points to 
 capture the exact solution for a linear-elastic, prismatic member.
 
 While it is well known that you can improve simulated frame response by increasing the number of integration points in a 
-force-based beam-column element, does the same hold true when using more than two integration points in a displacement-based element? 
+_force-based_ beam-column element, does the same hold true when using more than two integration points in a displacement-based element? 
 Let's find out using a model of a W14x90 steel member that appeared in a 
 [previous post]({% post_url 2020-02-22-a-tale-of-two-element-formulations %}) comparing the displacement-based and force-based formulations.
 
@@ -22,7 +22,7 @@ Interaction of the axial force and bending moment along the member is captured b
 fiber-discretized cross-sections. The stress-strain response of each fiber is bilinear with
 _F<sub>y</sub>_=50 ksi, _E_=29,000 ksi, and $$\alpha$$=0.005.
 
-We will examine the global and local response obtained from one displacement-based beam-column element (dispBeamColumn in OpenSees) with _N<sub>p</sub>_=3, 4, and 5 Gauss-Legendre integration
+We will examine the global and local response obtained from one displacement-based beam-column element (`dispBeamColumn` in OpenSees) with _N<sub>p</sub>_=3, 4, and 5 Gauss-Legendre integration
 points. The analysis does not include geometric nonlinearity within the element.
 
 The moment-rotation and moment-axial displacement response are shown below. Increasing the
