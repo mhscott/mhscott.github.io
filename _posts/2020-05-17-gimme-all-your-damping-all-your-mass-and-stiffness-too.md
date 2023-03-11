@@ -5,7 +5,7 @@ category: Structural Dynamics
 
 Just because OpenSees is open source does not mean it is a fully transparent box. This is mostly because documentation has lagged behind development. So, pessimists would say the box is semi-opaque while optimists would characterize it as semi-transparent. But a few parts of OpenSees are definitely housed in an opaque box.
 
-Take, for instance, the stiffness matrix. We received many requests for functionality to extract the stiffness matrix for post-processing and offline calculations, e.g., in MATLAB. As a result, the `printA` function was added a few years ago. This function returns the left-hand side matrix in whatever linear system of equations, $${\bf A}{\bf x}={\bf b}$$, OpenSees currently has in memory.
+Take, for instance, the stiffness matrix. We received many requests for functionality to extract the stiffness matrix for post-processing and offline calculations, e.g., in MATLAB. As a result, the `printA` function was added a few years ago. This function returns the left-hand side matrix in whatever linear system of equations, **Ax**=**b**, OpenSees currently has in memory.
 
 Note that the `printA` function only works with the `FullGeneral` system of equations, which stores the entire _N x N_ matrix. Getting the non-zeros out of sparse matrix storage and filling in zeros where needed is just not worth the effort.
 
