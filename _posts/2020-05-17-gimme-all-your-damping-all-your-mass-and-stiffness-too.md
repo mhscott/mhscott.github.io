@@ -94,7 +94,7 @@ C.shape = (N,N)
 
 Continue with the following code if you want to perform state space analysis
 on the model. You'll notice code to separate the DOFs with mass from those
-without mass using the nodeDOFs and nodeMass commands. This separation is
+without mass using the `nodeDOFs` and `nodeMass` commands. This separation is
 necessary for static condensation prior to the state space analysis. You may
 find the node utility commands useful for other stuff too.
 
