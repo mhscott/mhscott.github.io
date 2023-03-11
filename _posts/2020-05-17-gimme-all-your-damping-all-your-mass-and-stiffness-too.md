@@ -9,15 +9,15 @@ Take, for instance, the stiffness matrix. We received many requests for function
 
 Note that the `printA` function only works with the `FullGeneral` system of equations, which stores the entire _N x N_ matrix. Getting the non-zeros out of sparse matrix storage and filling in zeros where needed is just not worth the effort.
 
-With no input arguments, `printA` prints the _**A**_ matrix to the standard output stream, which is useless for any model with more than two DOFs. There is, however, an option to write the matrix to a file with `printA -file filename`. You can then load this file into MATLAB. In OpenSeesPy, there is an option to return the matrix as a list to the interpreter, `printA('-ret')`. More on this later.
+With no input arguments, `printA` prints the **A** matrix to the standard output stream, which is useless for any model with more than two DOFs. There is, however, an option to write the matrix to a file with `printA -file filename`. You can then load this file into MATLAB. In OpenSeesPy, there is an option to return the matrix as a list to the interpreter, `printA('-ret')`. More on this later.
 
 For a static analysis, `printA` gives the tangent stiffness matrix. For a dynamic analysis, `printA` gives the effective tangent stiffness matrix, which is not physically meaningful because it is a linear combination of the mass, damping, and static stiffness matrices with scalar coefficients dictated by the integrator and the time step.
 
-Let's suppose you're doing a dynamic analysis and want to get _**M**_, _**C**_, and _**K**_ from your model. You can get _**K**_ by first doing a static analysis, then calling `printA`. Easy. And, I recently learned that you can get _**M**_ by calling `printA` after switching to the `NewmarkExplicit` integrator with $$\gamma$$=0. Also easy. If you are using Rayleigh damping where _**C**_ is a linear combination of _**M**_ and _**K**_, you're done.
+Let's suppose you're doing a dynamic analysis and want to get **M**, **C**, and **K** from your model. You can get **K** by first doing a static analysis, then calling `printA`. Easy. And, I recently learned that you can get **M** by calling `printA` after switching to the `NewmarkExplicit` integrator with $$\gamma$$=0. Also easy. If you are using Rayleigh damping where **C** is a linear combination of **M** and **K**, you're done.
 
 But what if your model has viscous dampers and you want to get the non-classical damping matrix? What if you want to do state space calculations offline because OpenSees does not have state space functionality? You'll be SOL on the damping matrix. As far as I can tell, there's no integrator available that you can trick into forming only the damping matrix like you can with `NewmarkExplicit` and the mass matrix.
 
-So, after trying some arduous and non-scalable approaches to forming _**C**_ with imposed velocities and single point constraints, I realized I could just implement a new integrator to trick OpenSees into giving me what I want. This new integrator assembles any linear combination of mass, damping, and stiffness (tangent and initial) that you tell it. Then, you can grab that matrix with `printA`. I named it `GimmeMCK` (see [PR #343](https://github.com/OpenSees/OpenSees/pull/343)) because better names just didn't come to mind.
+So, after trying some arduous and non-scalable approaches to forming **C** with imposed velocities and single point constraints, I realized I could just implement a new integrator to trick OpenSees into giving me what I want. This new integrator assembles any linear combination of mass, damping, and stiffness (tangent and initial) that you tell it. Then, you can grab that matrix with `printA`. I named it `GimmeMCK` (see [PR #343](https://github.com/OpenSees/OpenSees/pull/343)) because better names just didn't come to mind.
 
 Python
 ```python
@@ -47,8 +47,8 @@ With your model defined, at any time you can switch to the `GimmeMCK`
 integrator, dump out the matrices you want, then switch back to a real dynamic
 integrator and proceed as if nothing happened. Don't worry if you see analysis
 failed warnings because the assembled matrix is singular, e.g., massless DOFs
-when assembling _**M**_ or small number of damping elements when
-assembling _**C**_.
+when assembling **M** or small number of damping elements when
+assembling **C**.
 
 Below is a synopsis of using the `GimmeMCK` integrator to get the mass,
 stiffness, and damping matrices from an OpenSees model defined in Python.
