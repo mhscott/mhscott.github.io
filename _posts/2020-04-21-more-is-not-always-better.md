@@ -10,7 +10,7 @@ capture the exact solution for a linear-elastic, prismatic member.
 While it is well known that you can improve simulated frame response by increasing the number of integration points in a 
 _force-based_ beam-column element, does the same hold true when using more than two integration points in a displacement-based element? 
 Let's find out using a model of a W14x90 steel member that appeared in a 
-[previous post]({% post_url 2020-02-22-a-tale-of-two-element-formulations %}) comparing the displacement-based and force-based formulations.
+[previous post]({% post_url 2020-02-23-a-tale-of-two-element-formulations %}) comparing the displacement-based and force-based formulations.
 
 ![Displacement-based element with Gauss integration](/assets/images/dbbcNProppedCantilever.png)
 
