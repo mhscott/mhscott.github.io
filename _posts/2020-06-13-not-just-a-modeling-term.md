@@ -34,8 +34,9 @@ A [colleague](https://www.ericafischer.org/) in Eastchester provided constructiv
 ---
 <br>
 Update, July 5, 2020: OpenSees GitHub [PR #381](https://github.com/OpenSees/OpenSees/pull/381),
-changed terminology in `SRC/` and `EXAMPLES/` to "primary/secondary"
-and "retained/constrained". A few occurrences are in third party code (Tcl/Tk and AMGCL) and some recorder
-options maintained for backward compatibility of scripts.
+changed "master/slave" terminology in `SRC/` and `EXAMPLES/` to "primary/secondary"
+and "retained/constrained". A few occurrences of the previous terminology
+are in third party code (Tcl/Tk and AMGCL) and one recorder
+input was maintained for backward compatibility of scripts.
 
 ![Remaining modeling terms in OpenSees source code](/assets/images/ModelingTerms.png)
