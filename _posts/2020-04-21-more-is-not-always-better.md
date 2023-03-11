@@ -15,7 +15,7 @@ Let's find out using a model of a W14x90 steel member that appeared in a
 ![Displacement-based element with Gauss integration](/assets/images/dbbcNProppedCantilever.png)
 
 The member resists a constant axial load, _N=0.2F<sub>y</sub>A_, and a moment, _M_, that
-increases from zero to two times the yield moment, _M<sub>y</sub>=F<sub>y</sub>S. The section
+increases from zero to two times the yield moment, _M<sub>y</sub>=F<sub>y</sub>S_. The section
 area, _A_, and strong axis section modulus, _S_, for a W14x90 are found in the Steel Manual.
 
 Interaction of the axial force and bending moment along the member is captured by
