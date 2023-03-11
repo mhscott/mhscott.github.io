@@ -37,6 +37,6 @@ This is the journal article that describes the high level architecture of OpenSe
 
 ---
 <br>
-In my opinion, the McKenna et al (2010) article is the best product to cite in order to give credit to the developers of OpenSees. Both Google Scholar and Web of Science will recognize the citation because it's to a peer-reviewed, archival publication.
+In my opinion, the [McKenna et al (2010)](https://dx.doi.org/10.1061/(ASCE)CP.1943-5487.0000002) article is the best product to cite in order to give credit to the developers of OpenSees. Both Google Scholar and Web of Science will recognize the citation because it's to a peer-reviewed, archival publication.
 
 Even though there's no wrong way to cite OpenSees, some researchers don't cite it at all. For example, there's no OpenSees reference in the article bibliography, but in the text you see "... fragility functions were developed using OpenSees." That's OK. At this point, the careers of McKenna, et, and al do not hinge on receiving more citations.
