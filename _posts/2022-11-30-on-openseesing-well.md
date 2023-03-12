@@ -5,7 +5,7 @@ category: Writing
 
 Every modern motivational technique, strategy, and hack boils down to implementing William Zinsser's advice from [_On Writing Well_](https://www.amazon.com/Writing-Well-William-Zinsser/dp/1559943491).
 
-> _Decide what you want to do. Then decide to do it. Then do it._
+> Decide what you want to do. Then decide to do it. Then do it.
 >
 > -- __William Zinsser__
 
