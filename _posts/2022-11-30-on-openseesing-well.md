@@ -7,7 +7,7 @@ Every modern motivational technique, strategy, and hack boils down to implementi
 
 > Decide what you want to do. Then decide to do it. Then do it.
 >
-> -- __William Zinsser__
+> -- William Zinsser
 
 OpenSees is no different.
 
