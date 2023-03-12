@@ -9,8 +9,10 @@ For example, in any given academic department of engineering, 20% of the faculty
 
 You'll see the 80/20 rule throughout OpenSees as well.
 
-+ 20% of contributors wrote 80% of the code.
-+ 20% of the code is responsible for 80% of the computations and (a mostly different) 20% of the code is responsible for 80% of the bugs.
-+ 20% of the users ask 80% of the questions and 20% of the community answers 80% of those questions.
++ 20% of contributors wrote 80% of the code
++ 20% of the code is responsible for 80% of the computations
++ 20% of the code is responsible for 80% of the bugs
++ 20% of the users ask 80% of the questions
++ 20% of the community answers 80% of the questions
 
 Beyond anecdotes, the 80/20 rule can help you optimize your OpenSees experience. Find the top 20% of element and constitutive models that you use. If you then spend some time to research, understand, test, and ask about those models, you will eliminate 80% of your future OpenSees modeling errors and frustrations.
