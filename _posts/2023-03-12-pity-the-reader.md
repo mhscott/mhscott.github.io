@@ -9,34 +9,34 @@ You will find the ground work for a chapter or two of _Pity the Reader_ in Vonne
 
 Vonnegut gives eight suggestions to examine and improve your writing style and says doing so is "a mark of respect for your readers, whatever you're writing".
 
-### 1. Find a subject you care about
+## 1. Find a subject you care about
 
 Truly caring about the subject is the best part of your writing style.
 
-### 2. Do not ramble
+## 2. Do not ramble
 
 Don't go into every little detail.
 
-### 3. Keep it simple
+## 3. Keep it simple
 
 Simple sentences work best.
 
-### 4. Have the guts to cut
+## 4. Have the guts to cut
 
 Even well written sentences should be cut if they do not contribute to the topic.
 
-### 5. Sound like yourself
+## 5. Sound like yourself
 
 Write like yourself, not, as Vonnegut says, like "cultivated Englishmen of a century or more ago".
 
-### 6. Say what you mean to say
+## 6. Say what you mean to say
 
 Your writing should be understood due to its clarity, not misunderstood due to its complexity.
 
-### 7. Pity the readers
+## 7. Pity the readers
 
 Write something useful that teaches your readers something.
 
-### 8. For really detailed advice
+## 8. For really detailed advice
 
 Vonnegut recommends [_The Elements of Style_](https://www.amazon.com/Elements-Style-William-White-Strunk/dp/B000KW42KM) by Strunk and White.
